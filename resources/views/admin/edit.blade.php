@@ -109,7 +109,7 @@
                 <div class="avatar">{{ strtoupper(substr($usuario->name, 0, 1)) }}</div>
                 <div>
                     <h3>{{ $usuario->name }}</h3>
-                    <span>@{{ $usuario->username }}</span>
+                    <span>{{ $usuario->username }}</span>
                 </div>
             </div>
 
