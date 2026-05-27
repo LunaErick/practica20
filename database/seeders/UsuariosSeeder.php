@@ -17,7 +17,7 @@ class UsuariosSeeder extends Seeder
                 'username'   => 'omarqm',
                 'email'      => 'omarqm@practica20.com',
                 'password'   => Hash::make('Omar411*'),
-                'rol'        => 'usuario',
+                'rol' => 'admin',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
